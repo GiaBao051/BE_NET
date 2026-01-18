@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BE.ConsoleApp
 {
+    // update
     public class Program
     {
         static void Main(string[] args)
@@ -22,7 +23,7 @@ namespace BE.ConsoleApp
                     break;
 
                 case (int)EmployeeManagerStatus.invalidID:
-                    Console.WriteLine("Mã nhân viên không hợp lê!");
+                    Console.WriteLine("Mã nhân viên không hợp lệ!");
                     break;
 
                 case (int)EmployeeManagerStatus.invalidName:
