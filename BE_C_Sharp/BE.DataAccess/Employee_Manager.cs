@@ -86,14 +86,14 @@ namespace BE.DataAccess
                         var startDate = worksheet.Cells[row, 3].Text;
 
                         if (!BE.Common.ValidateDataInput.CheckValidateString(code)
-                    || !BE.Common.ValidateDataInput.CheckXSSInput(code)
+                            || !BE.Common.ValidateDataInput.CheckXSSInput(code)
                     )
                         {
                             errName.Append("Hàng : " + row + "| Cột 0 dữ liệu không hợp lệ");
                             continue;
                         }
                         if (!BE.Common.ValidateDataInput.CheckValidateString(name)
-                 || !BE.Common.ValidateDataInput.CheckXSSInput(name)
+                            || !BE.Common.ValidateDataInput.CheckXSSInput(name)
                  )
                         {
                             errName.Append("Hàng : " + row + "| Cột 1 dữ liệu không hợp lệ");
@@ -118,5 +118,6 @@ namespace BE.DataAccess
 
             return result;
         }
+        
     }
 }
