@@ -1,2 +1,0 @@
-E:\Learn\Ky4_25_26\.Net\C#\BE_NET\BE_C_Sharp\BE.Common\obj\Debug\BE.Common.csproj.AssemblyReference.cache
-E:\Learn\Ky4_25_26\.Net\C#\BE_NET\BE_C_Sharp\BE.Common\obj\Debug\BE.Common.csproj.CoreCompileInputs.cache

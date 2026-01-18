@@ -1,0 +1,19 @@
+# Visual Studio (solution + project)
+.vs/
+**/.vs/
+
+# Build outputs
+**/bin/
+**/obj/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache / design-time build artifacts
+*.cache
+*.dtbcache.json
+*.force
+
+# Optional common
+*.user
+*.suo
+*.log
