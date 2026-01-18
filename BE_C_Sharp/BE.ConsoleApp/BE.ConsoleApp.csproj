@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BE.Common\BE.Common.csproj">
-      <Project>{fcccabcb-e078-43f3-b4c1-ef79dfb2d846}</Project>
-      <Name>BE.Common</Name>
+    <ProjectReference Include="..\BE.DataAccess\BE.DataAccess.csproj">
+      <Project>{7c0bc1ac-14ed-4a8f-9a33-58fe52b7bc47}</Project>
+      <Name>BE.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
