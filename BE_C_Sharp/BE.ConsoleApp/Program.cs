@@ -23,7 +23,7 @@ namespace BE.ConsoleApp
                     break;
 
                 case (int)EmployeeManagerStatus.invalidID:
-                    Console.WriteLine("Mã nhân viên không hợp lê!");
+                    Console.WriteLine("Mã nhân viên không hợp lệ!");
                     break;
 
                 case (int)EmployeeManagerStatus.invalidName:
